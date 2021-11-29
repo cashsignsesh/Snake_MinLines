@@ -2,6 +2,14 @@ using System.Linq;
 using UnityEngine;
 public class Snake_Explained : MonoBehaviour {
 
+    /* Loose rules
+     *  
+     *  - Only 1 class
+     *  - Roughly 1 statement = 1 line
+     *  - Performance least important    
+     * 
+     */
+
     // Define the snake and apple which are stored in GameObject arrays
     // The apple only ever has 1 item, but it is written as an array to 
     // save a line. Additionally, it makes it easy to implement multiple
